@@ -1,0 +1,41 @@
+{
+  "name": "css-quad",
+  "version": "0.1.0",
+  "description": "Css transform quad",
+  "keywords": [
+    "vanilla",
+    "es6",
+    "css",
+    "quad",
+    "transform",
+    "plane"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mrgnou/css-plane.git"
+  },
+  "main": "src/lib/CssQuad.js",
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "scripts": {
+    "start": "cd gulp && gulp",
+    "build": "cd gulp && gulp build --production"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "autobind-decorator": "^2.4",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "debounce": "^1.2.0",
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "terser-webpack-plugin": "^2.1.2",
+    "webpack": "^v4.41.0",
+    "yargs": "^14.0.0"
+  }
+}
