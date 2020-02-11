@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/mrgnou/css-plane.git"
+    "url" : "https://github.com/mrgnou/css-quad.git"
   },
   "main": "src/lib/CssQuad.js",
   "engines": {
